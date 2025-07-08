@@ -1,14 +1,15 @@
-import styles from './Header.module.css';
+import Styles from './Header.module.css';
+import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className={styles.header}>
+    <header className={Styles.header}>
       <h1>Mon Portfolio</h1>
-      <nav>
-        <a href="/">Accueil</a>
-        <a href="/about">À propos</a>
-        <a href="/projects">Projets</a>
-        <a href="/contact">Contact</a>
+      <nav className={Styles.nav}>
+        <Link href="/">Accueil</Link> | 
+        <Link href="/about">À propos</Link> | 
+        <Link href="/projects">Projets</Link> | 
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   );

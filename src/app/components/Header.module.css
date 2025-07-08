@@ -1,0 +1,23 @@
+.header {
+  background-color: #0070f3; /* Bleu vif */
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 0.5rem;
+}
+
+.link {
+  margin: 0 0.75rem;
+  color: #ffffff !important; /* blanc bien visible sur fond bleu */
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #ffd700 !important; /* jaune doré au survol */
+  text-decoration: underline;
+}
